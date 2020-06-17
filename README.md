@@ -1,12 +1,13 @@
 <div align="center">
 <img width="500" src="docs/pino-cone-logo.svg" alt="pino-cone Logo">
 </div>
+
 # pino-cone&nbsp;&nbsp;<img src="https://badgen.net/badge/build/works%20on%20my%20computer/green"/>&nbsp;<img src="https://badgen.net/badge/uses/JS/yellow"/>&nbsp;<img src="https://badgen.net/badge/designed%20in/MS Paint/blue"/>&nbsp;<img src="https://badgen.net/badge/made%20with/%E2%9D%A4/red" />
 
 ndjson formatter for [pino](https://www.npmjs.com/package/pino), used best with [fastify](https://www.fastify.io/)
 Based on [pino-pretty-min](https://www.npmjs.com/package/pino-pretty-min)
 
-![Showcase](X:\Seafile\Rolando Profesional\Proyectos\@Independiente\pino-cone\docs\showcase.png)
+![Showcase](docs/showcase.png)
 
 ## Features
 
