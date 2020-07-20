@@ -1,6 +1,6 @@
 {
   "name": "pino-cone",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A ndjson formatter for pino",
   "main": "index.js",
   "repository": "github.com/rolandostar/pino-cone",
@@ -13,18 +13,18 @@
     "pino-cone": "index.js"
   },
   "dependencies": {
-    "chalk": "^3.0.0",
+    "chalk": "^4.1.0",
     "cliui": "^6.0.0",
     "fast-json-parse": "^1.0.3",
-    "moment": "^2.24.0",
+    "moment": "^2.27.0",
     "pump": "^3.0.0",
     "split2": "^3.1.1",
-    "through2": "^3.0.1"
+    "through2": "^4.0.2"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.1"
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
   },
   "eslintConfig": {
     "extends": "airbnb-base"

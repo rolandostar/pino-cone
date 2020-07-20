@@ -17,13 +17,12 @@ const defaultOptions = {};
 
 module.exports = (options) => {
   // methods taken from James' reference prettifier: https://github.com/pinojs/pino-pretty/
-  const isPinoLog = (log) => (log && Object.prototype.hasOwnProperty.call(log, 'v') && log.v === 1);
   const isObject = (input) => Object.prototype.toString.apply(input) === '[object Object]';
   //
   function extractLog(inputData) {
     if (!isObject(inputData)) {
       const parsed = jsonParser(inputData);
-      if (parsed.err || !isPinoLog(parsed.value)) return null;
+      if (parsed.err) return null;
       return parsed.value;
     }
     return inputData;
